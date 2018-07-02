@@ -1,5 +1,6 @@
 MultipleInterfaceManager
 =================
+本接口是开发出支持Http，gRpc，Websocket接口，基于HttpRunnerManager开发
 
 Design Philosophy
 -----------------
