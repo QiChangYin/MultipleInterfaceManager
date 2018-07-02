@@ -25,7 +25,7 @@ from HttpApiManager.utils.task_opt import delete_task, change_task_status
 from HttpApiManager.utils.testcase import get_time_stamp
 from httprunner import HttpRunner
 
-logger = logging.getLogger('MultipleInterfaceManager')
+logger = logging.getLogger('HttpRunnerManager')
 
 # Create your views here.
 separator = '\\' if platform.system() == 'Windows' else '/'
