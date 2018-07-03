@@ -3389,3 +3389,434 @@ Traceback (most recent call last):
   File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
+2018-07-03 16:36:13,776 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 73, in login
+    select_password = UserInfo.objects.filter(username=username).fi("password")[0].get("password")
+AttributeError: 'QuerySet' object has no attribute 'fi'
+2018-07-03 16:36:41,430 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+    if data_decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+    plain_text = cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 16:42:35,059 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+    if data_decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 42, in data_decrypt
+    plain_text = cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 16:43:14,220 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+    if data_decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 42, in data_decrypt
+    plain_text = cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 16:44:10,769 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+    if data_decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 43, in data_decrypt
+    plain_text = cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 16:45:09,140 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+    if data_decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 43, in data_decrypt
+    plain_text = cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 16:47:29,399 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+    if data_decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 43, in data_decrypt
+    plain_text = cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 16:48:53,902 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+    if data_decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 43, in data_decrypt
+    plain_text = cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 16:52:06,636 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+    if data_decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 43, in data_decrypt
+    plain_text = cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 16:56:42,131 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 10, in process
+    app = __import__("%s.views" % app)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 28, in <module>
+    from common.prpcrypt import data_encrypt,data_decrypt
+ImportError: cannot import name 'data_encrypt'
+2018-07-03 16:56:45,956 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 10, in process
+    app = __import__("%s.views" % app)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 28, in <module>
+    from common.prpcrypt import data_encrypt,data_decrypt
+ImportError: cannot import name 'data_encrypt'
+2018-07-03 16:57:34,710 [MultipleInterfaceManager:23] [operation:add_register_data] [INFO]- 用户名是:nidaye1,加密后的密码是：b'8f55cdb828ce3a984bdeedc6a5553699'
+2018-07-03 16:57:34,748 [MultipleInterfaceManager:34] [operation:add_register_data] [INFO]- 新增用户：HttpApiManager.UserInfo.objects
+2018-07-03 16:58:31,960 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+    if prpcrypt().decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+    plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 17:02:01,809 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+    if prpcrypt().decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+    plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 17:04:08,607 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+    if prpcrypt().decrypt(select_password.decode('utf-8').encode('gbk')) == password:
+AttributeError: 'str' object has no attribute 'decode'
+2018-07-03 17:04:35,789 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+    if prpcrypt().decrypt(select_password.encode('gbk')) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+    plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 17:07:23,619 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+    print(prpcrypt().decrypt(select_password) )
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+    plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 17:08:30,880 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+    print(prpcrypt().decrypt(select_password))
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+    plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 17:10:41,838 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+    print(prpcrypt().decrypt(select_password))
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+    plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 17:12:08,911 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+    print(prpcrypt().decrypt(select_password))
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+    plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 17:12:33,334 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+    print(prpcrypt().decrypt(select_password))
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+    plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 17:13:19,621 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+    print(prpcrypt().decrypt(select_password))
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+    plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 17:15:12,877 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 78, in login
+    if prpcrypt().decrypt(bytes(select_password, encoding = "utf8")) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+    plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 17:18:51,121 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 77, in login
+    if prpcrypt().decrypt(bytes(select_password, encoding = "utf8")) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+    plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 17:23:11,248 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 74, in login
+    print(str(select_password,encoding='utf-8'))
+TypeError: decoding str is not supported
+2018-07-03 17:25:49,285 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 75, in login
+    if prpcrypt().decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+    plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 17:26:44,064 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 78, in login
+    if prpcrypt().decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+    plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 17:28:50,315 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 77, in login
+    if prpcrypt().decrypt(ca) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+    plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 17:32:59,010 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 77, in login
+    if prpcrypt().decrypt(ca) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+    plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 17:33:16,422 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 78, in login
+    if prpcrypt().decrypt(ca) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+    plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 17:41:14,044 [MultipleInterfaceManager:85] [views:login] [INFO]- nidaye1 登录失败, 请检查用户名或者密码
+2018-07-03 17:41:15,540 [MultipleInterfaceManager:85] [views:login] [INFO]- nidaye1 登录失败, 请检查用户名或者密码
+2018-07-03 17:41:59,470 [MultipleInterfaceManager:80] [views:login] [INFO]- nidaye1 登录成功
+2018-07-03 17:47:21,002 [MultipleInterfaceManager:72] [views:login] [INFO]- nidaye1 登录成功

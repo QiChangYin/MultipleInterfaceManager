@@ -3,7 +3,7 @@ import logging
 from django.core.exceptions import ObjectDoesNotExist
 from django.db import DataError
 
-from common.prpcrypt import data_encrypt
+from common.prpcrypt import prpcrypt
 from HttpApiManager.models import ProjectInfo, ModuleInfo, TestCaseInfo, UserInfo, EnvInfo, TestReports, DebugTalk, \
     TestSuite
 
@@ -19,7 +19,7 @@ def add_register_data(**kwargs):
     user_info = UserInfo.objects
     try:
         username = kwargs.pop('account')
-        password = data_encrypt(kwargs.pop('password'))
+        password = prpcrypt().encrypt(kwargs.pop('password'))
         logger.info('用户名是:{username},加密后的密码是：{password}'.format(username=username,password=password))
         # password = kwargs.pop('password')
         email = kwargs.pop('email')

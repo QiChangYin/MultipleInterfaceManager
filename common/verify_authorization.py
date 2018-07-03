@@ -7,6 +7,21 @@ import logging
 from common.format_render import json_detail_render
 from HttpApiManager.models import UserInfo
 logger = logging.getLogger('MultipleInterfaceManager')
+from common.prpcrypt import prpcrypt
+
+
+def password_validation(username,password):
+    """
+    :param username: 用户名
+    :param password: 密码
+    :return: True 表示匹配，False 表示不匹配
+    """
+    select_password = UserInfo.objects.filter(username=username).values("password")[0].get("password")
+    ca = select_password[2:len(select_password) - 1]
+    if prpcrypt().decrypt(bytes(ca, encoding='utf-8')) == password:
+        return True
+    else:
+        return  False
 
 
 def is_admin():
