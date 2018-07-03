@@ -142,6 +142,21 @@ else:
 
 STATIC_URL = '/static/'
 
+PRPCRYPT_KAY_SALT="canglaoshinihao"
+
+STATUS_CODE = {
+    0: 'ok',
+
+    301: 'password wrong',
+    303: 'username or password wrong',
+
+    403: 'not allowed',
+    410: 'auth expired',
+    411: 'auth error',
+    412: 'not login',
+    413: 'username is not exist or password error',
+
+}
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder'

@@ -24,12 +24,41 @@ from HttpApiManager.utils.runner import run_by_batch, run_test_by_type
 from HttpApiManager.utils.task_opt import delete_task, change_task_status
 from HttpApiManager.utils.testcase import get_time_stamp
 from httprunner import HttpRunner
-
-logger = logging.getLogger('HttpRunnerManager')
+from common.verify_authorization import required
+from common.prpcrypt import data_encrypt,data_decrypt
+import  re
+import binascii
+logger = logging.getLogger('MultipleInterfaceManager')
 
 # Create your views here.
 separator = '\\' if platform.system() == 'Windows' else '/'
 
+
+# def login(request):
+#     """
+#     登录
+#     :param request:
+#     :return:
+#     """
+#     if request.method == 'POST':
+#         username = request.POST.get('account')
+#         password = request.POST.get('password')
+#
+#         if UserInfo.objects.filter(username__exact=username).filter(password__exact=password).count() == 1:
+#             logger.info('{username} 登录成功'.format(username=username))
+#             request.session["login_status"] = True
+#             request.session["now_account"] = username
+#             return HttpResponseRedirect('/api/index/')
+#         else:
+#             logger.info('{username} 登录失败, 请检查用户名或者密码'.format(username=username))
+#             request.session["login_status"] = False
+#             return render_to_response("login.html")
+#     elif request.method == 'GET':
+#         return render_to_response("login.html")
+
+
+def cao(s):
+    return  re.sub('__UTF([a-f0-9]{8})__', lambda x: binascii.unhexlify(x.group(1)).decode('utf-16'), s)
 
 def login(request):
     """
@@ -39,9 +68,12 @@ def login(request):
     """
     if request.method == 'POST':
         username = request.POST.get('account')
+        # password = request.POST.get('password')
         password = request.POST.get('password')
-
-        if UserInfo.objects.filter(username__exact=username).filter(password__exact=password).count() == 1:
+        select_password = UserInfo.objects.filter(username__exact=username).values("password")[0].get("password")
+        # print(select_password[0].get("password"))
+        print(select_password)
+        if data_decrypt(select_password) == password:
             logger.info('{username} 登录成功'.format(username=username))
             request.session["login_status"] = True
             request.session["now_account"] = username
@@ -52,7 +84,6 @@ def login(request):
             return render_to_response("login.html")
     elif request.method == 'GET':
         return render_to_response("login.html")
-
 
 def register(request):
     """
