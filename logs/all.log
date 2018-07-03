@@ -4452,3 +4452,254 @@ Traceback (most recent call last):
     plain_text = cryptor.decrypt(a2b_hex(text.strip())).decode()
 binascii.Error: Odd-length string
 2018-07-03 11:06:55,024 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 80997
+2018-07-03 11:37:19,419 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 75, in login
+    if data_decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+    plain_text = cryptor.decrypt(a2b_hex()).decode()
+TypeError: a2b_hex() takes exactly one argument (0 given)
+2018-07-03 11:37:19,579 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81075
+2018-07-03 11:37:38,184 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 75, in login
+    if data_decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+    plain_text = cryptor.decrypt(a2b_hex()).decode()
+TypeError: a2b_hex() takes exactly one argument (0 given)
+2018-07-03 11:37:38,232 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81041
+2018-07-03 11:38:01,058 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 75, in login
+    if data_decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+    plain_text = cryptor.decrypt(a2b_hex()).decode()
+TypeError: a2b_hex() takes exactly one argument (0 given)
+2018-07-03 11:38:01,112 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81041
+2018-07-03 11:38:10,685 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 75, in login
+    if data_decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+    plain_text = cryptor.decrypt(a2b_hex()).decode()
+TypeError: a2b_hex() takes exactly one argument (0 given)
+2018-07-03 11:38:10,732 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81041
+2018-07-03 11:38:40,617 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 75, in login
+    if data_decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+    plain_text = cryptor.decrypt(a2b_hex()).decode()
+TypeError: a2b_hex() takes exactly one argument (0 given)
+2018-07-03 11:38:40,662 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81041
+2018-07-03 11:41:18,399 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 77, in login
+    if data_decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+    plain_text = cryptor.decrypt(a2b_hex()).decode()
+TypeError: a2b_hex() takes exactly one argument (0 given)
+2018-07-03 11:41:18,603 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81073
+2018-07-03 11:41:53,003 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 77, in login
+    if data_decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+    plain_text = cryptor.decrypt(a2b_hex(text)).decode()
+TypeError: argument should be bytes, buffer or ASCII string, not 'UserInfo'
+2018-07-03 11:41:53,197 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81187
+2018-07-03 11:42:13,031 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 77, in login
+    if data_decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+    plain_text = cryptor.decrypt(a2b_hex(text)).decode()
+TypeError: argument should be bytes, buffer or ASCII string, not 'UserInfo'
+2018-07-03 11:42:13,076 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81153
+2018-07-03 11:43:29,100 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 74, in login
+    print(select_password)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\colorama\ansitowin32.py", line 40, in write
+    self.__convertor.write(text)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\colorama\ansitowin32.py", line 141, in write
+    self.write_and_convert(text)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\colorama\ansitowin32.py", line 169, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\colorama\ansitowin32.py", line 174, in write_plain_text
+    self.wrapped.write(text[start:end])
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\colorama\ansitowin32.py", line 40, in write
+    self.__convertor.write(text)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\colorama\ansitowin32.py", line 141, in write
+    self.write_and_convert(text)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\colorama\ansitowin32.py", line 169, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\colorama\ansitowin32.py", line 175, in write_plain_text
+    self.wrapped.flush()
+OSError: [Errno 22] Invalid argument
+2018-07-03 11:43:29,216 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 107688
+2018-07-03 11:44:03,921 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 74, in login
+    print(select_password)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\colorama\ansitowin32.py", line 40, in write
+    self.__convertor.write(text)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\colorama\ansitowin32.py", line 141, in write
+    self.write_and_convert(text)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\colorama\ansitowin32.py", line 169, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\colorama\ansitowin32.py", line 174, in write_plain_text
+    self.wrapped.write(text[start:end])
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\colorama\ansitowin32.py", line 40, in write
+    self.__convertor.write(text)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\colorama\ansitowin32.py", line 141, in write
+    self.write_and_convert(text)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\colorama\ansitowin32.py", line 169, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\colorama\ansitowin32.py", line 175, in write_plain_text
+    self.wrapped.flush()
+OSError: [Errno 22] Invalid argument
+2018-07-03 11:44:03,978 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 107688
+2018-07-03 11:46:11,086 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 5535
+2018-07-03 11:46:23,488 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 77, in login
+    if data_decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+    plain_text = cryptor.decrypt(a2b_hex(text)).decode()
+TypeError: argument should be bytes, buffer or ASCII string, not 'UserInfo'
+2018-07-03 11:46:23,667 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81153
+2018-07-03 11:47:07,220 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 74, in login
+    print(select_password["password"])
+TypeError: 'UserInfo' object is not subscriptable
+2018-07-03 11:47:07,388 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 77931
+2018-07-03 11:52:10,495 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 77, in login
+    if data_decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+    plain_text = cryptor.decrypt(a2b_hex(text)).decode()
+TypeError: argument should be bytes, buffer or ASCII string, not 'QuerySet'
+2018-07-03 11:52:10,644 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81335
+2018-07-03 11:52:51,094 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+    if data_decrypt(select_password) == password:
+  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+    plain_text = cryptor.decrypt(a2b_hex(text)).decode()
+binascii.Error: Odd-length string
+2018-07-03 11:52:51,258 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81046

@@ -70,9 +70,9 @@ def login(request):
         username = request.POST.get('account')
         # password = request.POST.get('password')
         password = request.POST.get('password')
-        select_password = UserInfo.objects.filter(username__exact=username).values("password")[0].get("password")
-        # print(select_password[0].get("password"))
-        print(select_password)
+        # select_password = UserInfo.objects.filter(username=username).fi("password")[0].get("password")
+        # print(select_password)
+        # select_password = UserInfo.objects.get(username__exact=username).values("password")[0].get("password")
         if data_decrypt(select_password) == password:
             logger.info('{username} 登录成功'.format(username=username))
             request.session["login_status"] = True

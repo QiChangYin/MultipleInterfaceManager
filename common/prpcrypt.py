@@ -38,6 +38,6 @@ def data_encrypt(text):
 
 def data_decrypt(text):
     cryptor = AES.new(pad_key(key).encode(), mode)
-    plain_text = cryptor.decrypt(a2b_hex()).decode()
+    plain_text = cryptor.decrypt(a2b_hex(text)).decode()
     return plain_text.rstrip(' ')
 
