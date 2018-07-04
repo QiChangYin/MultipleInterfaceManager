@@ -3820,3 +3820,14 @@ binascii.Error: Odd-length string
 2018-07-03 17:41:15,540 [MultipleInterfaceManager:85] [views:login] [INFO]- nidaye1 登录失败, 请检查用户名或者密码
 2018-07-03 17:41:59,470 [MultipleInterfaceManager:80] [views:login] [INFO]- nidaye1 登录成功
 2018-07-03 17:47:21,002 [MultipleInterfaceManager:72] [views:login] [INFO]- nidaye1 登录成功
+2018-07-03 17:55:14,551 [MultipleInterfaceManager:77] [views:login] [INFO]- nidaye1 登录失败, 请检查用户名或者密码
+2018-07-03 17:55:15,636 [MultipleInterfaceManager:77] [views:login] [INFO]- nidaye1 登录失败, 请检查用户名或者密码
+2018-07-03 17:55:18,643 [MultipleInterfaceManager:72] [views:login] [INFO]- nidaye1 登录成功
+2018-07-03 18:00:08,702 [MultipleInterfaceManager:61] [operation:add_project_data] [INFO]- 项目添加成功：{'project_name': '天宫20号', 'responsible_name': '普京', 'test_user': '普京', 'dev_user': '普京', 'publish_app': '普京', 'simple_desc': '普京', 'other_desc': '普京'}
+2018-07-03 18:00:28,475 [MultipleInterfaceManager:109] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': '登月', 'test_user': '普京', 'simple_desc': '普京', 'other_desc': '普京', 'belong_project': <ProjectInfo: ProjectInfo object (10)>}
+2018-07-03 18:01:16,407 [MultipleInterfaceManager:61] [operation:add_project_data] [INFO]- 项目添加成功：{'project_name': '大奖', 'responsible_name': '大奖', 'test_user': '大奖', 'dev_user': '大奖', 'publish_app': '大奖', 'simple_desc': '大奖', 'other_desc': '大奖'}
+2018-07-03 18:02:09,998 [MultipleInterfaceManager:61] [operation:add_project_data] [INFO]- 项目添加成功：{'project_name': '1', 'responsible_name': '1', 'test_user': '1', 'dev_user': '1', 'publish_app': '1', 'simple_desc': '1', 'other_desc': '1'}
+2018-07-03 18:03:04,734 [MultipleInterfaceManager:109] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': '1', 'test_user': '1', 'simple_desc': '1', 'other_desc': '1', 'belong_project': <ProjectInfo: ProjectInfo object (8)>}
+2018-07-03 18:04:33,076 [MultipleInterfaceManager:61] [operation:add_project_data] [INFO]- 项目添加成功：{'project_name': '2', 'responsible_name': '1', 'test_user': '1', 'dev_user': '1', 'publish_app': '1', 'simple_desc': '1', 'other_desc': '1'}
+2018-07-03 18:06:43,913 [MultipleInterfaceManager:77] [views:login] [INFO]- nidaye1 登录失败, 请检查用户名或者密码
+2018-07-03 18:06:51,429 [MultipleInterfaceManager:72] [views:login] [INFO]- nidaye1 登录成功

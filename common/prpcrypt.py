@@ -2,6 +2,7 @@ from Cryptodome.Cipher import AES
 from binascii import b2a_hex, a2b_hex
 from MultipleInterfaceManager.settings import PRPCRYPT_KAY_SALT
 AES_LENGTH = 16
+
 key = PRPCRYPT_KAY_SALT
 
 class prpcrypt():
