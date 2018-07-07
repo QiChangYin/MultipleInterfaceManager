@@ -1,7 +1,7 @@
 from django.utils.safestring import mark_safe
-
+import logging
 from HttpApiManager.models import ModuleInfo, TestCaseInfo, TestSuite
-
+logger = logging.getLogger('MultipleInterfaceManager')
 
 class PageInfo(object):
     """
@@ -105,9 +105,11 @@ def get_pager_info(Model, filter_query, url, id, per_items=12):
         user = filter_query.get('user')
 
     obj = Model.objects
+    logging.info(obj.count())
 
     if url == '/api/project_list/':
         obj = obj.filter(project_name__contains=name) if name is not '' else obj.filter(responsible_name__contains=user)
+        logging.info(obj.count())
 
     elif url == '/api/module_list/':
         if belong_project is not '':
@@ -150,6 +152,7 @@ def get_pager_info(Model, filter_query, url, id, per_items=12):
         obj = obj.order_by('-date_changed')
 
     total = obj.count()
+    logger.info(total)
 
     page_info = PageInfo(id, total, per_items=per_items)
     info = obj[page_info.start:page_info.end]

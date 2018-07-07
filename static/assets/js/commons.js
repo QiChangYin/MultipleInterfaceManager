@@ -30,6 +30,8 @@ function show_case(case_info, id) {
 /*表单信息异步传输*/
 function info_ajax(id, url) {
     var data = $(id).serializeJSON();
+    console.log('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')
+    console.log(data)
     if (id === '#add_task') {
         var include = [];
         var i = 0;
@@ -48,7 +50,8 @@ function info_ajax(id, url) {
             if (data !== 'ok') {
                 if (data.indexOf('/api/') !== -1) {
                     window.location.href = data;
-                } else {
+                }
+                else {
                     myAlert(data);
                 }
             }

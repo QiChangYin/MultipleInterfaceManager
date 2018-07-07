@@ -5300,3 +5300,268 @@ binascii.Error: Odd-length string
 2018-07-03 18:08:26,524 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 17746
 2018-07-03 18:08:28,417 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/2 HTTP/1.1" 301 0
 2018-07-03 18:08:28,439 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/2/ HTTP/1.1" 200 57659
+2018-07-06 22:49:53,097 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 5535
+2018-07-06 22:49:55,642 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2018-07-06 22:49:57,826 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18111
+2018-07-06 22:51:21,279 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 47647
+2018-07-06 22:51:22,103 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18111
+2018-07-06 22:52:11,831 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 47647
+2018-07-06 22:52:55,772 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 47647
+2018-07-06 22:52:56,435 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-06 22:52:56,449 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-06 22:55:07,186 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 25617
+2018-07-06 22:56:30,383 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 25617
+2018-07-06 22:56:31,302 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-06 22:56:31,315 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-06 22:56:55,401 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 25617
+2018-07-06 22:56:55,780 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-06 22:56:55,788 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-06 22:56:56,634 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 25617
+2018-07-06 22:56:57,398 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-06 22:56:57,405 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-06 22:59:08,024 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 25617
+2018-07-06 22:59:09,049 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-06 22:59:09,055 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-06 22:59:31,026 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 25617
+2018-07-06 22:59:31,767 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-06 22:59:31,776 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-07 17:11:57,489 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 5535
+2018-07-07 17:11:57,511 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.sticky.js HTTP/1.1" 304 0
+2018-07-07 17:11:57,512 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom.js HTTP/1.1" 304 0
+2018-07-07 17:11:57,512 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/css-index.css HTTP/1.1" 304 0
+2018-07-07 17:11:57,513 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 304 0
+2018-07-07 17:11:57,513 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/owl.carousel.min.js HTTP/1.1" 304 0
+2018-07-07 17:11:57,513 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/wow.min.js HTTP/1.1" 304 0
+2018-07-07 17:11:58,622 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/loading.GIF HTTP/1.1" 304 0
+2018-07-07 17:11:58,623 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 304 0
+2018-07-07 17:12:01,919 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2018-07-07 17:12:01,981 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18111
+2018-07-07 17:12:02,015 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
+2018-07-07 17:12:02,020 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 304 0
+2018-07-07 17:12:35,600 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18111
+2018-07-07 17:12:36,010 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-07 17:12:36,016 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-07 17:12:36,870 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18111
+2018-07-07 17:12:37,072 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-07 17:12:37,077 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-07 17:12:39,318 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18111
+2018-07-07 17:12:39,360 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1077
+2018-07-07 17:12:39,360 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
+2018-07-07 17:12:39,361 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
+2018-07-07 17:12:39,363 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13555
+2018-07-07 17:12:40,869 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-07 17:12:40,877 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-07 17:13:26,109 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 47647
+2018-07-07 17:13:26,138 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 304 0
+2018-07-07 17:13:27,789 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:13:28,992 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 16456
+2018-07-07 17:14:50,442 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 47647
+2018-07-07 17:14:50,577 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 304 0
+2018-07-07 17:14:51,760 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:14:53,044 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 47647
+2018-07-07 17:14:54,008 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:14:56,406 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 47647
+2018-07-07 17:17:36,801 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:17:36,889 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 304 0
+2018-07-07 17:17:55,600 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 35761
+2018-07-07 17:17:57,429 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16598
+2018-07-07 17:18:30,959 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 47647
+2018-07-07 17:18:30,987 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 304 0
+2018-07-07 17:18:31,964 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:19:29,006 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:19:29,044 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
+2018-07-07 17:19:29,044 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1077
+2018-07-07 17:19:29,045 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
+2018-07-07 17:19:29,045 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13555
+2018-07-07 17:19:31,872 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-07 17:19:31,882 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-07 17:20:13,065 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 35761
+2018-07-07 17:20:13,208 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 304 0
+2018-07-07 17:20:14,797 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16598
+2018-07-07 17:20:16,780 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 47647
+2018-07-07 17:20:19,163 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:26:35,935 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 20
+2018-07-07 17:26:35,938 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 36
+2018-07-07 17:26:35,956 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:26:36,039 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
+2018-07-07 17:26:36,041 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
+2018-07-07 17:26:36,047 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1077
+2018-07-07 17:26:36,050 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13555
+2018-07-07 17:26:37,380 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-07 17:26:37,393 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-07 17:27:51,779 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:27:51,844 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1077
+2018-07-07 17:27:51,846 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
+2018-07-07 17:27:51,849 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
+2018-07-07 17:27:51,851 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13578
+2018-07-07 17:27:52,421 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-07 17:27:52,433 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-07 17:28:03,600 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 20
+2018-07-07 17:28:04,016 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 54632
+2018-07-07 17:28:04,051 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 304 0
+2018-07-07 17:28:51,862 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 54632
+2018-07-07 17:28:51,894 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 304 0
+2018-07-07 17:28:53,603 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 54632
+2018-07-07 17:28:55,280 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:32:13,384 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 20
+2018-07-07 17:32:13,626 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 58217
+2018-07-07 17:32:13,667 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 304 0
+2018-07-07 17:32:13,670 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 304 0
+2018-07-07 17:32:35,123 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:32:40,295 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 36
+2018-07-07 17:34:14,515 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 36
+2018-07-07 17:38:29,799 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:38:29,856 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1077
+2018-07-07 17:38:29,857 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
+2018-07-07 17:38:29,857 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
+2018-07-07 17:38:29,858 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13578
+2018-07-07 17:38:34,588 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 24
+2018-07-07 17:38:38,945 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 36
+2018-07-07 17:41:43,018 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:41:43,067 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1077
+2018-07-07 17:41:43,069 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
+2018-07-07 17:41:43,070 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13649
+2018-07-07 17:41:43,071 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
+2018-07-07 17:41:44,734 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:41:44,782 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1077
+2018-07-07 17:41:44,783 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13649
+2018-07-07 17:41:44,783 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
+2018-07-07 17:41:44,784 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
+2018-07-07 17:41:45,922 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:41:45,969 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
+2018-07-07 17:41:45,969 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1077
+2018-07-07 17:41:45,971 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
+2018-07-07 17:41:45,972 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13649
+2018-07-07 17:41:49,549 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:41:49,591 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1077
+2018-07-07 17:41:49,593 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
+2018-07-07 17:41:49,594 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13649
+2018-07-07 17:41:49,595 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
+2018-07-07 17:41:54,023 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:41:54,059 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
+2018-07-07 17:41:54,059 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1077
+2018-07-07 17:41:54,060 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
+2018-07-07 17:41:54,061 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13649
+2018-07-07 17:41:54,875 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-07 17:41:54,881 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-07 17:41:55,872 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:41:55,905 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1077
+2018-07-07 17:41:55,905 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
+2018-07-07 17:41:55,905 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
+2018-07-07 17:41:55,906 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13649
+2018-07-07 17:41:56,477 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-07 17:41:56,484 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-07 17:42:02,004 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:42:02,019 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 304 0
+2018-07-07 17:42:05,592 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:42:05,613 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 304 0
+2018-07-07 17:42:11,492 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 36
+2018-07-07 17:42:21,880 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 36
+2018-07-07 17:42:57,511 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:42:57,557 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1077
+2018-07-07 17:42:57,559 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
+2018-07-07 17:42:57,560 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13675
+2018-07-07 17:42:57,560 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
+2018-07-07 17:42:58,763 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17285
+2018-07-07 17:42:58,811 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
+2018-07-07 17:42:58,813 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
+2018-07-07 17:42:58,814 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13675
+2018-07-07 17:42:58,814 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1077
+2018-07-07 17:43:02,875 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 24
+2018-07-07 17:43:04,942 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 24
+2018-07-07 17:43:05,423 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 24
+2018-07-07 17:43:05,647 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 24
+2018-07-07 17:45:06,692 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 58217
+2018-07-07 17:45:06,716 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13666
+2018-07-07 17:46:23,529 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 58217
+2018-07-07 17:46:23,551 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 304 0
+2018-07-07 17:46:23,552 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 304 0
+2018-07-07 17:47:08,679 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 58217
+2018-07-07 17:47:08,701 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 304 0
+2018-07-07 17:52:11,954 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 58259
+2018-07-07 17:52:11,978 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 304 0
+2018-07-07 17:52:11,979 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 304 0
+2018-07-07 17:52:42,883 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17306
+2018-07-07 17:53:37,236 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 58259
+2018-07-07 17:53:37,275 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 304 0
+2018-07-07 17:55:15,536 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 58259
+2018-07-07 17:55:15,625 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 58259
+2018-07-07 17:55:15,630 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 304 0
+2018-07-07 17:55:15,635 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/project_list/1/ HTTP/1.1" 500 59
+2018-07-07 18:18:03,247 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 58259
+2018-07-07 18:18:03,307 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 304 0
+2018-07-07 18:18:03,309 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 304 0
+2018-07-07 18:26:40,951 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/project_list/1/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 343, in project_list
+    ProjectInfo, filter_query, '/api/project_list/', id)
+  File "E:\MultipleInterfaceManager\HttpApiManager\utils\pagination.py", line 108, in get_pager_info
+    logging.info(logger.c)
+AttributeError: 'ProcessAwareLogger' object has no attribute 'c'
+2018-07-07 18:26:41,209 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/project_list/1/ HTTP/1.1" 500 85609
+2018-07-07 18:32:55,118 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17306
+2018-07-07 18:32:55,205 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
+2018-07-07 18:32:55,213 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1077
+2018-07-07 18:32:55,216 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
+2018-07-07 18:32:55,219 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13666
+2018-07-07 18:33:08,733 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 58259
+2018-07-07 18:33:54,113 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 5542
+2018-07-07 18:33:55,563 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2018-07-07 18:33:55,610 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18133
+2018-07-07 18:34:14,773 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 5542
+2018-07-07 18:35:17,215 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 5542
+2018-07-07 18:35:19,027 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2018-07-07 18:35:19,175 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18133
+2018-07-07 18:35:40,591 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 5542
+2018-07-07 18:35:53,264 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2018-07-07 18:35:53,314 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18133
+2018-07-07 18:36:38,444 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 5542
+2018-07-07 18:36:41,450 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2018-07-07 18:36:41,492 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18133
+2018-07-07 18:37:31,752 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/log/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 12, in process
+    fun = getattr(view, fun)
+AttributeError: module 'HttpApiManager.views' has no attribute 'log'
+2018-07-07 18:37:31,905 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/log/ HTTP/1.1" 500 73493
+2018-07-07 18:37:34,636 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 5542
+2018-07-07 18:37:37,863 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2018-07-07 18:37:37,914 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18133
+2018-07-07 18:39:24,127 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 58259
+2018-07-07 18:39:24,155 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 304 0
+2018-07-07 18:39:25,931 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 58259
+2018-07-07 18:39:45,871 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 58259
+2018-07-07 18:40:06,074 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 58259
+2018-07-07 18:40:11,317 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 5542
+2018-07-07 18:40:13,338 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2018-07-07 18:40:13,384 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18133
+2018-07-07 18:40:14,966 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 58259
+2018-07-07 18:40:31,602 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 58259
+2018-07-07 18:40:32,513 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 58259
+2018-07-07 18:40:35,336 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 58259
+2018-07-07 18:40:35,392 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
+2018-07-07 18:40:35,571 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1077
+2018-07-07 18:40:35,572 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
+2018-07-07 18:40:35,575 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13666
+2018-07-07 18:40:37,406 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 58259
+2018-07-07 18:40:37,453 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1077
+2018-07-07 18:40:37,456 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13666
+2018-07-07 18:40:37,458 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
+2018-07-07 18:40:37,459 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
+2018-07-07 18:40:42,493 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 5542
+2018-07-07 18:40:43,924 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2018-07-07 18:40:43,970 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18133

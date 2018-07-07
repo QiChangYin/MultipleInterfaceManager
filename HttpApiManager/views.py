@@ -147,11 +147,14 @@ def add_project(request):
     """
     if request.session.get('login_status'):
         account = request.session["now_account"]
+        # 当在添加工程界面上面点击了提交按钮，那么就会调用AJAX请求，就会进行保存什么的。
         if request.is_ajax():
             project_info = json.loads(request.body.decode('utf-8'))
+            print(project_info)
             msg = project_info_logic(**project_info)
             return HttpResponse(get_ajax_msg(msg, '/api/project_list/1/'))
 
+        #每次新建项目都会走这个分支，因为是新建，所以manage_info只有一个key值
         elif request.method == 'GET':
             manage_info = {
                 'account': account
@@ -335,6 +338,7 @@ def project_list(request, id):
             return HttpResponse(get_ajax_msg(msg, 'ok'))
         else:
             filter_query = set_filter_session(request)
+            logger.info(filter_query)
             pro_list = get_pager_info(
                 ProjectInfo, filter_query, '/api/project_list/', id)
             manage_info = {
