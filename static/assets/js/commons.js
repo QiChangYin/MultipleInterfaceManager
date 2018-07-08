@@ -30,7 +30,6 @@ function show_case(case_info, id) {
 /*表单信息异步传输*/
 function info_ajax(id, url) {
     var data = $(id).serializeJSON();
-    console.log('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')
     console.log(data)
     if (id === '#add_task') {
         var include = [];

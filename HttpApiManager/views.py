@@ -566,13 +566,6 @@ def rinige(request):
     print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",decodestr)
     print(decodestr.decode())
 
-    # kwargs = json.loads(request.body.decode('utf-8'))
-    # id = kwargs.pop('id')
-    # name = kwargs.pop('name')
-    # print("AAAAAAAAAAAAAAAAAAAAAAA")
-    # print("ID:",id)
-    # print("name:",name)
-
     return JsonResponse({"status": True, "code": "0001"})
 
 def env_list(request, id):
@@ -681,6 +674,8 @@ def add_task(request):
         account = request.session["now_account"]
         if request.is_ajax():
             kwargs = json.loads(request.body.decode('utf-8'))
+            print("Add Tast is {}".format(kwargs))
+            print("Add Tast is {}".format(**kwargs))
             msg = task_logic(**kwargs)
             return HttpResponse(get_ajax_msg(msg, '/api/periodictask/1/'))
         elif request.method == 'GET':
@@ -703,7 +698,6 @@ def upload_file(request):
                 module_name = request.POST.get('module')
             except KeyError as e:
                 return JsonResponse({"status": e})
-
             if project_name == '请选择' or module_name == '请选择':
                 return JsonResponse({"status": '项目或模块不能为空'})
 

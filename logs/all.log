@@ -5861,3 +5861,285 @@ ValueError: Format string contains positional fields
 2018-07-08 16:37:32,537 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 16097
 2018-07-08 16:37:35,885 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/5 HTTP/1.1" 301 0
 2018-07-08 16:37:35,950 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/5/ HTTP/1.1" 200 44026
+2018-07-08 16:43:49,954 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 18948
+2018-07-08 16:43:50,228 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 304 0
+2018-07-08 16:43:54,103 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/11/ HTTP/1.1" 200 2627
+2018-07-08 16:44:05,825 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/periodictask/1/ HTTP/1.1" 200 21385
+2018-07-08 16:44:26,302 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/periodictask/1/ HTTP/1.1" 200 21385
+2018-07-08 16:44:29,728 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/echo/ HTTP/1.1" 200 2301
+2018-07-08 16:44:38,163 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/env_list/1/ HTTP/1.1" 200 23015
+2018-07-08 16:44:53,084 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/env_list/1/ HTTP/1.1" 200 23015
+2018-07-08 16:50:26,099 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 5542
+2018-07-08 16:50:28,228 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2018-07-08 16:50:28,465 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18130
+2018-07-08 16:50:32,161 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 65804
+2018-07-08 16:50:39,285 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_batch_test/ HTTP/1.1" 200 73
+2018-07-08 16:50:39,333 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/test/ HTTP/1.1" 200 63
+2018-07-08 16:50:39,344 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/test/ HTTP/1.1" 200 63
+2018-07-08 16:50:39,356 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/test/ HTTP/1.1" 200 63
+2018-07-08 16:50:39,368 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/test/ HTTP/1.1" 200 63
+2018-07-08 16:50:49,869 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 5542
+2018-07-08 16:51:49,497 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 17784
+2018-07-08 16:52:03,126 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/periodictask/1/ HTTP/1.1" 200 21382
+2018-07-08 16:52:08,121 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/periodictask/1/ HTTP/1.1" 200 2
+2018-07-08 16:52:08,150 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/periodictask/1/ HTTP/1.1" 200 21381
+2018-07-08 16:52:09,506 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/periodictask/1/ HTTP/1.1" 200 2
+2018-07-08 16:52:09,540 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/periodictask/1/ HTTP/1.1" 200 21380
+2018-07-08 16:53:21,213 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 26860
+2018-07-08 16:56:09,232 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 65804
+2018-07-08 16:58:49,820 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/get_project_info/ HTTP/1.1" 200 0
+2018-07-08 16:58:52,544 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/get_project_info/ HTTP/1.1" 200 9
+2018-07-08 16:59:00,912 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/upload_file/ HTTP/1.1" 200 31
+2018-07-08 16:59:06,275 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/upload_file/ HTTP/1.1" 200 31
+2018-07-08 16:59:06,332 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 34369
+2018-07-08 16:59:16,047 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_batch_test/ HTTP/1.1" 200 20763
+2018-07-08 16:59:20,263 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 34369
+2018-07-08 16:59:23,691 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 34369
+2018-07-08 16:59:26,807 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 65804
+2018-07-08 16:59:28,790 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 35779
+2018-07-08 16:59:31,919 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 34369
+2018-07-08 16:59:33,692 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/24/ HTTP/1.1" 200 51160
+2018-07-08 16:59:53,287 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 65804
+2018-07-08 17:00:06,128 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/get_project_info/ HTTP/1.1" 200 0
+2018-07-08 17:00:10,111 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/upload_file/ HTTP/1.1" 200 68
+2018-07-08 17:00:11,672 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/upload_file/ HTTP/1.1" 200 68
+2018-07-08 17:00:15,612 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 34369
+2018-07-08 17:00:19,658 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/22/ HTTP/1.1" 200 60802
+2018-07-08 17:00:34,791 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 34369
+2018-07-08 17:00:40,890 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_batch_test/ HTTP/1.1" 200 19257
+2018-07-08 17:19:03,822 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 34369
+2018-07-08 17:19:04,172 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-08 17:19:04,182 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-08 17:19:05,865 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 35779
+2018-07-08 17:19:07,917 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 34369
+2018-07-08 17:19:20,210 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 65804
+2018-07-08 17:19:22,701 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 35779
+2018-07-08 17:19:25,791 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 65804
+2018-07-08 17:19:32,955 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/get_project_info/ HTTP/1.1" 200 25
+2018-07-08 17:19:37,119 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/upload_file/ HTTP/1.1" 200 31
+2018-07-08 17:19:39,232 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/upload_file/ HTTP/1.1" 200 31
+2018-07-08 17:19:39,282 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 41863
+2018-07-08 17:19:50,033 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_batch_test/ HTTP/1.1" 500 59
+2018-07-08 17:20:24,085 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 35779
+2018-07-08 17:20:26,042 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 41863
+2018-07-08 17:20:27,378 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 26707
+2018-07-08 17:20:31,381 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_config/ HTTP/1.1" 200 0
+2018-07-08 17:20:34,562 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_config/ HTTP/1.1" 200 0
+2018-07-08 17:20:37,116 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_config/ HTTP/1.1" 200 27
+2018-07-08 17:20:40,305 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 35779
+2018-07-08 17:20:59,882 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/periodictask/1/ HTTP/1.1" 200 21380
+2018-07-08 17:23:35,970 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/periodictask/1/ HTTP/1.1" 200 2
+2018-07-08 17:23:36,094 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/periodictask/1/ HTTP/1.1" 200 21380
+2018-07-08 17:23:37,411 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/periodictask/1/ HTTP/1.1" 200 2
+2018-07-08 17:23:37,438 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/periodictask/1/ HTTP/1.1" 200 21380
+2018-07-08 17:23:38,369 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/periodictask/1/ HTTP/1.1" 200 2
+2018-07-08 17:23:38,392 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/periodictask/1/ HTTP/1.1" 200 21380
+2018-07-08 17:26:04,229 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/periodictask/1/ HTTP/1.1" 200 21380
+2018-07-08 17:26:05,434 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_task/ HTTP/1.1" 200 20240
+2018-07-08 17:28:47,561 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_task/ HTTP/1.1" 200 20240
+2018-07-08 17:28:47,872 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-08 17:28:47,880 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-08 17:28:54,335 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:28:54,468 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18340
+2018-07-08 17:28:55,290 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:28:55,305 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18340
+2018-07-08 17:28:56,439 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:28:56,451 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18340
+2018-07-08 17:28:57,201 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:28:57,215 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18340
+2018-07-08 17:29:06,183 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:29:06,196 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18340
+2018-07-08 17:29:07,007 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:29:07,022 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18339
+2018-07-08 17:29:11,857 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:29:11,871 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18341
+2018-07-08 17:29:13,352 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:29:13,367 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18340
+2018-07-08 17:29:17,690 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:29:17,703 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18341
+2018-07-08 17:29:48,558 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:29:48,572 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18340
+2018-07-08 17:29:49,496 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:29:49,511 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18341
+2018-07-08 17:30:18,946 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:30:18,961 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18341
+2018-07-08 17:30:19,645 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:30:19,662 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18340
+2018-07-08 17:30:20,686 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:30:20,699 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18340
+2018-07-08 17:30:22,468 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_task/ HTTP/1.1" 200 20240
+2018-07-08 17:30:22,772 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-08 17:30:22,780 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-08 17:30:24,353 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 18945
+2018-07-08 17:30:25,548 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17303
+2018-07-08 17:30:26,876 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 65804
+2018-07-08 17:30:29,671 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/env_list/1/ HTTP/1.1" 200 23012
+2018-07-08 17:30:45,604 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 5542

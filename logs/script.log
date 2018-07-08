@@ -4130,3 +4130,239 @@ ValueError: Format string contains positional fields
 2018-07-08 16:35:14,981 [MultipleInterfaceManager:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
 2018-07-08 16:35:14,985 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
 2018-07-08 16:37:32,495 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 1
+2018-07-08 16:43:49,679 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 16:44:05,796 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-08 16:44:26,276 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-08 16:44:38,136 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-08 16:44:53,057 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-08 16:50:28,221 [MultipleInterfaceManager:72] [views:login] [INFO]- laoda 登录成功
+2018-07-08 16:50:31,995 [MultipleInterfaceManager:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 16:50:31,999 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 16:51:49,488 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-08 16:52:03,119 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-08 16:52:08,142 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-08 16:52:09,534 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-08 16:53:21,201 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-08 16:56:09,156 [MultipleInterfaceManager:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 16:56:09,162 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 16:59:00,897 [MultipleInterfaceManager:154] [operation:add_case_data] [INFO]- get token用例添加成功: {'test': {'name': 'get token', 'request': {'url': 'http://127.0.0.1:5000/api/get-token', 'method': 'POST', 'headers': {'Content-Type': 'application/json', 'user_agent': 'iOS/10.3', 'device_sn': 'HZfFBh6tU59EdXJ', 'os_platform': 'ios', 'app_version': '2.8.6'}, 'json': {'sign': 'f1219719911caae89ccc301679857ebfda115ca2'}}, 'variables': [{'expect_status_code': 200}, {'token_len': 16}], 'extract': [{'token': 'content.token'}], 'validate': [{'check': 'status_code', 'comparator': 'eq', 'expected': '$expect_status_code'}, {'check': '$token', 'comparator': 'len_eq', 'expected': '$token_len'}, {'check': 'content.token', 'comparator': 'len_eq', 'expected': 16}, {'check': 'status_code', 'comparator': 'sum_status_code', 'expected': 2}]}}
+2018-07-08 16:59:00,904 [MultipleInterfaceManager:154] [operation:add_case_data] [INFO]- create user which does not exist用例添加成功: {'test': {'name': 'create user which does not exist', 'request': {'url': 'http://127.0.0.1:5000/api/users/1000', 'method': 'POST', 'headers': {'Content-Type': 'application/json', 'device_sn': 'HZfFBh6tU59EdXJ', 'token': '$token'}, 'json': {'name': 'user1', 'password': '123456'}}, 'extract': [{'success': 'content.success'}], 'validate': [{'check': 'status_code', 'comparator': 'eq', 'expected': 201}, {'check': 'status_code', 'comparator': 'sum_status_code', 'expected': 3}, {'check': '$success', 'comparator': 'eq', 'expected': True}, {'check': 'abc$success', 'comparator': 'eq', 'expected': 'abcTrue'}]}}
+2018-07-08 16:59:00,911 [MultipleInterfaceManager:154] [operation:add_case_data] [INFO]- create user which existed用例添加成功: {'test': {'name': 'create user which existed', 'request': {'url': 'http://127.0.0.1:5000/api/users/1000', 'method': 'POST', 'headers': {'Content-Type': 'application/json', 'device_sn': 'HZfFBh6tU59EdXJ', 'token': '$token'}, 'json': {'name': 'user1', 'password': '123456'}}, 'validate': [{'check': 'status_code', 'comparator': 'eq', 'expected': 500}, {'check': 'status_code', 'comparator': 'sum_status_code', 'expected': 5}, {'check': 'content.success', 'comparator': 'eq', 'expected': False}]}}
+2018-07-08 16:59:06,311 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 5
+2018-07-08 16:59:20,246 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 5
+2018-07-08 16:59:23,676 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 5
+2018-07-08 16:59:26,738 [MultipleInterfaceManager:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 16:59:26,744 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 16:59:28,758 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-08 16:59:31,904 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 5
+2018-07-08 16:59:53,219 [MultipleInterfaceManager:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 16:59:53,225 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 17:00:15,597 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 5
+2018-07-08 17:00:34,776 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 5
+2018-07-08 17:19:03,799 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 5
+2018-07-08 17:19:05,723 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-08 17:19:07,902 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 5
+2018-07-08 17:19:20,149 [MultipleInterfaceManager:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 17:19:20,154 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 17:19:22,678 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-08 17:19:25,716 [MultipleInterfaceManager:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 17:19:25,723 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 17:19:37,099 [MultipleInterfaceManager:192] [operation:add_config_data] [INFO]- create user and check result.配置添加成功: {'config': {'name': 'create user and check result.', 'def': 'create_and_check($uid, $token)', 'request': {'base_url': 'http://127.0.0.1:5000', 'headers': {'Content-Type': 'application/json', 'device_sn': '$device_sn'}}, 'output': ['token']}}
+2018-07-08 17:19:37,106 [MultipleInterfaceManager:154] [operation:add_case_data] [INFO]- make sure user $uid does not exist用例添加成功: {'test': {'name': 'make sure user $uid does not exist', 'api': 'get_user($uid, $token)', 'validate': [{'check': 'status_code', 'comparator': 'eq', 'expected': 404}, {'check': 'content.success', 'comparator': 'eq', 'expected': False}]}}
+2018-07-08 17:19:37,112 [MultipleInterfaceManager:154] [operation:add_case_data] [INFO]- create user $uid用例添加成功: {'test': {'name': 'create user $uid', 'variables': [{'user_name': 'user1'}, {'user_password': '123456'}], 'api': 'create_user($uid, $user_name, $user_password, $token)', 'validate': [{'check': 'status_code', 'comparator': 'eq', 'expected': 201}, {'check': 'content.success', 'comparator': 'eq', 'expected': True}]}}
+2018-07-08 17:19:37,119 [MultipleInterfaceManager:154] [operation:add_case_data] [INFO]- check if user $uid exists用例添加成功: {'test': {'name': 'check if user $uid exists', 'api': 'get_user($uid, $token)', 'validate': [{'check': 'status_code', 'comparator': 'eq', 'expected': 200}, {'check': 'content.success', 'comparator': 'eq', 'expected': True}]}}
+2018-07-08 17:19:39,260 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 8
+2018-07-08 17:20:24,061 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-08 17:20:26,023 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 8
+2018-07-08 17:20:40,281 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-08 17:20:59,876 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-08 17:23:36,088 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-08 17:23:37,432 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-08 17:23:38,386 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-08 17:26:04,222 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-08 17:28:54,335 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:28:55,290 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:28:56,439 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:28:57,201 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:29:06,183 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:29:07,007 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:29:11,857 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:29:13,352 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:29:17,690 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:29:48,558 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:29:49,496 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:30:18,946 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:30:19,645 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:30:20,686 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-08 17:30:24,333 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 17:30:26,813 [MultipleInterfaceManager:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 17:30:26,820 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 17:30:29,663 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
