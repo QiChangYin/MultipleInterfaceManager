@@ -29,9 +29,12 @@ def main_hrun(testset_path, report_name):
         "failfast": False,
     }
     runner = HttpRunner(**kwargs)
+
     run_time = time.strftime('%Y-%m-%d %H-%M-%S', time.localtime(time.time()))
     runner.run(testset_path)
     shutil.rmtree(testset_path)
+    print("Current testset_path is : {}".format(testset_path))
+    print("Current report_name is : {}".format(report_name))
     add_test_reports(run_time, report_name=report_name, **runner.summary)
     return runner.summary
 

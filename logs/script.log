@@ -3895,3 +3895,238 @@ AttributeError: module 'HttpApiManager.views' has no attribute 'log'
 2018-07-07 18:40:37,350 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
 2018-07-07 18:40:37,353 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
 2018-07-07 18:40:43,917 [MultipleInterfaceManager:72] [views:login] [INFO]- laoda 登录成功
+2018-07-07 18:41:32,224 [MultipleInterfaceManager:72] [views:login] [INFO]- laoda 登录成功
+2018-07-07 18:41:55,559 [MultipleInterfaceManager:72] [views:login] [INFO]- laoda 登录成功
+2018-07-07 18:42:08,844 [MultipleInterfaceManager:72] [views:login] [INFO]- laoda 登录成功
+2018-07-07 18:46:59,556 [MultipleInterfaceManager:72] [views:login] [INFO]- laoda 登录成功
+2018-07-07 18:47:01,804 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-07 18:47:01,807 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-07 20:22:28,182 [MultipleInterfaceManager:72] [views:login] [INFO]- laoda 登录成功
+2018-07-07 20:22:56,623 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-07 20:23:32,925 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-07 20:24:06,083 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-07 20:24:06,086 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-07 20:37:33,883 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-07 20:37:33,885 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-07 20:38:02,983 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-07 20:38:26,023 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-07 20:39:23,739 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-07 20:39:42,915 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-07 20:41:34,832 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-07 20:41:39,468 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-07 20:43:00,317 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-07 20:43:00,321 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-08 11:20:36,274 [MultipleInterfaceManager:72] [views:login] [INFO]- laoda 登录成功
+2018-07-08 12:33:15,704 [MultipleInterfaceManager:72] [views:login] [INFO]- laoda 登录成功
+2018-07-08 12:33:17,156 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 12:33:17,159 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-08 12:33:18,828 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 12:33:18,830 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-08 12:33:22,115 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 12:33:22,117 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-08 12:33:24,740 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 12:33:24,742 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-08 12:33:26,226 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 12:33:26,228 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-08 12:33:51,570 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 12:33:51,573 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-08 12:50:01,365 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 12:50:01,374 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-08 12:50:04,917 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '1 ', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 12:50:04,921 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 0
+2018-07-08 12:50:09,490 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '1 ', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 12:50:09,494 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 0
+2018-07-08 12:50:11,116 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '1 ', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 12:50:11,118 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 0
+2018-07-08 12:50:14,630 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '1 ', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 12:50:14,632 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 0
+2018-07-08 12:50:18,996 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '1 ', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 12:50:18,999 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 0
+2018-07-08 12:50:22,757 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '1 ', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 12:50:22,759 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 0
+2018-07-08 12:50:23,492 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '1 ', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 12:50:23,495 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 0
+2018-07-08 12:50:25,619 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '1 ', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 12:50:25,621 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 0
+2018-07-08 12:50:29,392 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 12:50:29,396 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-08 13:05:24,341 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:05:24,344 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-08 13:07:14,100 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '1', 'name': '12', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:07:14,102 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 1
+2018-07-08 13:07:17,675 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '12', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:07:17,677 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 1
+2018-07-08 13:07:18,586 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '12', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:07:18,588 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 1
+2018-07-08 13:07:19,035 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '12', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:07:19,037 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 1
+2018-07-08 13:07:21,784 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '12', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:07:21,786 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 1
+2018-07-08 13:07:23,619 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '12', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:07:23,621 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 1
+2018-07-08 13:07:24,858 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '12', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:07:24,860 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 1
+2018-07-08 13:07:29,568 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:07:29,571 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-08 13:09:10,004 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:09:10,007 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-08 13:09:10,118 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:09:10,121 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-08 13:09:34,581 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:09:34,584 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-08 13:10:57,847 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:10:57,850 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-08 13:10:59,338 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:10:59,341 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 10
+2018-07-08 13:11:09,515 [MultipleInterfaceManager:61] [operation:add_project_data] [INFO]- 项目添加成功：{'project_name': '121', 'responsible_name': '21', 'test_user': '21', 'dev_user': '122', 'publish_app': '21', 'simple_desc': '21', 'other_desc': '21'}
+2018-07-08 13:11:09,531 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:11:09,535 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 11
+2018-07-08 13:11:12,960 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:11:12,963 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 11
+2018-07-08 13:11:15,296 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:11:15,299 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 11
+2018-07-08 13:11:22,898 [MultipleInterfaceManager:61] [operation:add_project_data] [INFO]- 项目添加成功：{'project_name': 'ewqewq', 'responsible_name': 'wqe', 'test_user': 'we', 'dev_user': 'we', 'publish_app': 'weq', 'simple_desc': 'weq', 'other_desc': 'we'}
+2018-07-08 13:11:22,916 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:11:22,919 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 13:11:29,573 [MultipleInterfaceManager:61] [operation:add_project_data] [INFO]- 项目添加成功：{'project_name': 'weqeqw', 'responsible_name': 'ew', 'test_user': 'we', 'dev_user': 'we', 'publish_app': 'weq', 'simple_desc': 'wqe', 'other_desc': 'wewe'}
+2018-07-08 13:11:29,590 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:11:29,592 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 13
+2018-07-08 13:11:34,902 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:11:34,905 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 13
+2018-07-08 13:11:36,729 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:11:36,731 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 13
+2018-07-08 13:11:39,263 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:11:39,266 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 13
+2018-07-08 13:11:41,000 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:11:41,003 [MultipleInterfaceManager:155] [pagination:get_pager_info] [INFO]- 13
+2018-07-08 13:20:44,108 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:20:44,115 [MultipleInterfaceManager:157] [pagination:get_pager_info] [INFO]- 13
+2018-07-08 13:21:01,539 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '1', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:21:01,543 [MultipleInterfaceManager:157] [pagination:get_pager_info] [INFO]- 5
+2018-07-08 13:29:54,667 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '1', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:29:54,671 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 5
+2018-07-08 13:29:56,265 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '1', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:29:56,271 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 5
+2018-07-08 13:29:58,913 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:29:58,918 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 13
+2018-07-08 13:30:08,330 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:30:08,337 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 13
+2018-07-08 13:32:58,514 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:32:58,526 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 13
+2018-07-08 13:33:43,148 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:34:17,102 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 13
+2018-07-08 13:42:10,039 [MultipleInterfaceManager:72] [views:login] [INFO]- laoda 登录成功
+2018-07-08 13:42:14,086 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:42:14,091 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 13
+2018-07-08 13:42:21,724 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 0
+2018-07-08 13:42:25,857 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-08 13:42:29,632 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 0
+2018-07-08 13:42:59,908 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:42:59,913 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 13
+2018-07-08 13:43:40,841 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-08 13:45:39,282 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:45:39,288 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 13
+2018-07-08 13:46:54,370 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:46:54,374 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 13
+2018-07-08 13:46:55,976 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:46:55,982 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 13
+2018-07-08 13:47:30,769 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:47:30,773 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 13
+2018-07-08 13:57:43,474 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:57:43,482 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 13:59:18,756 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:59:18,761 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 13:59:55,293 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 13:59:55,298 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 14:00:18,414 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 14:00:18,420 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 14:01:51,407 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 14:01:51,412 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 14:02:57,153 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-08 14:03:01,099 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-08 14:03:03,350 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 14:03:03,354 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 14:10:23,518 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 14:10:23,523 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 14:11:27,776 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-08 14:11:31,768 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 14:11:31,772 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 14:11:33,773 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 14:11:33,781 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 14:11:34,723 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-08 14:11:36,249 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-08 14:11:44,665 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 14:11:44,670 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 14:11:47,959 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-08 14:12:11,170 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 14:12:11,175 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 14:12:24,117 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-08 14:12:26,252 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-08 14:12:28,641 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-08 14:12:37,008 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 14:12:37,014 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 14:13:59,033 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-08 14:14:01,744 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 0
+2018-07-08 14:14:05,411 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-08 14:14:31,737 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 14:14:31,743 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 14:14:33,761 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-08 14:14:35,718 [MultipleInterfaceManager:341] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 14:14:35,723 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 14:27:29,807 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-08 14:28:28,875 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-08 14:30:07,107 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-08 14:30:11,650 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-08 14:30:14,432 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-08 14:31:11,699 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-08 14:31:13,566 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-08 14:31:15,889 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-08 14:31:32,185 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-08 14:31:41,268 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-08 14:33:54,280 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-08 16:17:44,471 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-08 16:17:46,742 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-08 16:17:48,363 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-08 16:17:49,081 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 1
+2018-07-08 16:17:49,811 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 0
+2018-07-08 16:24:17,283 [MultipleInterfaceManager:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 16:24:17,288 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 16:24:25,971 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_batch_test/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 307, in run_batch_test
+    print("Current testcase_dir_path is : {}".format_map(testcase_dir_path))
+ValueError: Format string contains positional fields
+2018-07-08 16:24:30,706 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_batch_test/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 307, in run_batch_test
+    print("Current testcase_dir_path is : {}".format_map(testcase_dir_path))
+ValueError: Format string contains positional fields
+2018-07-08 16:27:22,278 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 0
+2018-07-08 16:27:26,026 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 0
+2018-07-08 16:27:27,506 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 0
+2018-07-08 16:27:29,544 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 0
+2018-07-08 16:27:30,796 [MultipleInterfaceManager:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 16:27:30,801 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 16:29:31,683 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 1
+2018-07-08 16:29:35,216 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-08 16:29:37,647 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 1
+2018-07-08 16:35:13,647 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 1
+2018-07-08 16:35:14,981 [MultipleInterfaceManager:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-08 16:35:14,985 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-08 16:37:32,495 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 1

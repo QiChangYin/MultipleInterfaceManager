@@ -9,6 +9,7 @@ class PageInfo(object):
     """
 
     def __init__(self, current, total_item, per_items=5):
+        print(current,total_item,per_items)
         self.__current = current
         self.__per_items = per_items
         self.__total_item = total_item
@@ -110,6 +111,8 @@ def get_pager_info(Model, filter_query, url, id, per_items=12):
     if url == '/api/project_list/':
         obj = obj.filter(project_name__contains=name) if name is not '' else obj.filter(responsible_name__contains=user)
         logging.info(obj.count())
+        print(obj)
+        print(obj.all())
 
     elif url == '/api/module_list/':
         if belong_project is not '':
@@ -154,7 +157,10 @@ def get_pager_info(Model, filter_query, url, id, per_items=12):
     total = obj.count()
     logger.info(total)
 
+    # 当前的id 页面，total共多少项，每页多少项
     page_info = PageInfo(id, total, per_items=per_items)
+    print(page_info)
+    print(page_info.start,page_info.end)
     info = obj[page_info.start:page_info.end]
 
     sum = {}
@@ -162,6 +168,7 @@ def get_pager_info(Model, filter_query, url, id, per_items=12):
     if total != 0:
         if url == '/api/project_list/':
             for model in info:
+                print("Filter ID {} ".format(model.id))
                 pro_name = model.project_name
                 module_count = str(ModuleInfo.objects.filter(belong_project__project_name__exact=pro_name).count())
                 suite_count = str(TestSuite.objects.filter(belong_project__project_name__exact=pro_name).count())
@@ -188,5 +195,7 @@ def get_pager_info(Model, filter_query, url, id, per_items=12):
                 sum.setdefault(model.id, test_count)
 
         page_list = customer_pager(url, id, page_info.total_page)
-
+    print(page_list)
+    print(info)
+    print(sum)
     return page_list, info, sum

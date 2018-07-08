@@ -248,6 +248,7 @@ def run_test(request):
         if request.is_ajax():
             try:
                 kwargs = json.loads(request.body.decode('utf-8'))
+                print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
             except ValueError:
                 logging.error('待运行用例信息解析异常：{kwargs}'.format(kwargs=kwargs))
                 return HttpResponse('信息解析异常，请重试')
@@ -301,6 +302,10 @@ def run_batch_test(request):
             type = kwargs.pop('type')
             report_name = kwargs.get('report_name', None)
             run_by_batch(test_list, base_url, testcase_dir_path, type=type)
+            print("Current test_list name is : {}".format(test_list))
+            print("Current base_url name is : {}".format(base_url))
+            print("Current testcase_dir_path is : {}".format(testcase_dir_path))
+            print("Current type is : {}".format(type))
             main_hrun.delay(testcase_dir_path, report_name)
             return HttpResponse('用例执行中，请稍后查看报告即可,默认时间戳命名报告')
         else:
