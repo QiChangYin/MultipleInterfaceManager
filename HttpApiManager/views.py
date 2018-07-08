@@ -878,6 +878,7 @@ def edit_suite(request, id=None):
 
 @accept_websocket
 def echo(request):
+    print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
     if not request.is_websocket():
         return render_to_response('echo.html')
     else:
