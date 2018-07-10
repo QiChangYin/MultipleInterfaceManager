@@ -1,0 +1,25 @@
+-   config:
+        def: create_and_check($uid, $token)
+        name: create user and check result.
+        output:
+        - token
+        request:
+            base_url: http://127.0.0.1:5000
+            headers:
+                Content-Type: application/json
+                device_sn: $device_sn
+-   test:
+        api: get_user($uid, $token)
+        name: make sure user $uid does not exist
+        validate:
+        -   check: status_code
+            comparator: eq
+            expected: 404
+        -   check: content.success
+            comparator: eq
+            expected: false
+-   test:
+        name: '11'
+        request:
+            method: POST
+            url: http://127.0.0.1:8000

@@ -265,7 +265,7 @@ def run_test(request):
             id = request.POST.get('id')
             base_url = request.POST.get('env_name')
             type = request.POST.get('type', 'test')
-
+            print(id)
             run_test_by_type(id, base_url, testcase_dir_path, type)
 
             runner.run(testcase_dir_path)
@@ -391,6 +391,9 @@ def module_list(request, id):
     else:
         return HttpResponseRedirect("/api/login/")
 
+
+def test(request):
+    return 'OK'
 
 def test_list(request, id):
     """

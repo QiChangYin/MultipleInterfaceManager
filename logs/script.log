@@ -5247,3 +5247,116 @@ Traceback (most recent call last):
   File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
+2018-07-09 07:37:45,872 [MultipleInterfaceManager:72] [views:login] [INFO]- laoda 登录成功
+2018-07-09 07:57:43,519 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-09 07:57:46,018 [MultipleInterfaceManager:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-09 07:57:46,028 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-09 08:11:20,383 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 8
+2018-07-09 08:14:11,820 [MultipleInterfaceManager:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-09 08:14:11,826 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-09 08:15:58,211 [MultipleInterfaceManager:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-09 08:15:58,225 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-09 08:17:41,060 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-09 08:18:14,141 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-09 08:18:19,079 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 1
+2018-07-09 08:21:02,916 [MultipleInterfaceManager:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-09 08:21:02,928 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-09 08:22:07,415 [MultipleInterfaceManager:61] [operation:add_project_data] [INFO]- 项目添加成功：{'project_name': '1112', 'responsible_name': '122', 'test_user': '112', 'dev_user': '1212', 'publish_app': '12', 'simple_desc': '212', 'other_desc': '212'}
+2018-07-09 08:22:07,437 [MultipleInterfaceManager:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-09 08:22:07,444 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 13
+2018-07-09 08:23:32,926 [MultipleInterfaceManager:61] [operation:add_project_data] [INFO]- 项目添加成功：{'project_name': '12121221', 'responsible_name': '12', 'test_user': '1212', 'dev_user': '12', 'publish_app': '212', 'simple_desc': '2112', 'other_desc': '2112'}
+2018-07-09 08:23:32,952 [MultipleInterfaceManager:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-09 08:23:32,959 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 14
+2018-07-09 08:25:23,494 [MultipleInterfaceManager:61] [operation:add_project_data] [INFO]- 项目添加成功：{'project_name': 'wqq', 'responsible_name': 'wqw', 'test_user': 'wqqw', 'dev_user': 'qw', 'publish_app': 'qww', 'simple_desc': 'qqw', 'other_desc': 'wqw'}
+2018-07-09 08:25:23,516 [MultipleInterfaceManager:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-09 08:25:23,524 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 15
+2018-07-09 21:26:40,746 [MultipleInterfaceManager:72] [views:login] [INFO]- laoda 登录成功
+2018-07-09 21:57:34,206 [MultipleInterfaceManager:72] [views:login] [INFO]- laoda 登录成功
+2018-07-09 21:58:16,571 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 8
+2018-07-09 21:59:02,915 [MultipleInterfaceManager:154] [operation:add_case_data] [INFO]- 11用例添加成功: {'test': {'request': {'url': 'http://127.0.0.1:8000', 'method': 'POST'}, 'name': '11'}}
+2018-07-09 21:59:02,939 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-09 22:03:11,180 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-09 22:03:27,886 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-09 22:05:22,564 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-09 22:05:47,969 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-09 22:07:58,083 [MultipleInterfaceManager:154] [operation:add_case_data] [INFO]- 1112212用例添加成功: {'test': {'request': {'url': 'asddsa', 'method': 'POST'}, 'name': '1112212'}}
+2018-07-09 22:07:58,197 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 10
+2018-07-09 22:08:37,924 [MultipleInterfaceManager:154] [operation:add_case_data] [INFO]- dasdsa用例添加成功: {'test': {'request': {'url': 'sdaads', 'method': 'POST'}, 'name': 'dasdsa'}}
+2018-07-09 22:08:37,992 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 11
+2018-07-09 22:09:10,029 [MultipleInterfaceManager:154] [operation:add_case_data] [INFO]- wqweqweq用例添加成功: {'test': {'request': {'url': 'wqweq', 'method': 'POST'}, 'name': 'wqweqweq'}}
+2018-07-09 22:09:10,099 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-09 22:10:37,130 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 11
+2018-07-09 22:10:39,373 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 10
+2018-07-09 22:10:41,549 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-09 22:20:50,749 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-09 22:20:52,618 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-09 22:36:31,957 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-09 22:36:41,115 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 681, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-09 22:36:42,492 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 681, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-09 22:36:43,944 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 681, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-09 22:36:45,075 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_task/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 681, in add_task
+    print("Add Tast is {}".format(**kwargs))
+IndexError: tuple index out of range
+2018-07-09 22:38:58,037 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-09 22:39:04,760 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-09 22:40:00,413 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-09 22:40:21,981 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-09 22:40:31,912 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-09 22:40:36,512 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-09 22:40:42,137 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-09 22:40:45,130 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-09 22:40:49,289 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-09 22:41:04,442 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-09 22:41:10,267 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-09 22:41:11,837 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 3
+2018-07-09 22:41:14,544 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-09 22:43:03,001 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 5
+2018-07-09 23:02:01,262 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-09 23:03:09,533 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 15
+2018-07-09 23:03:40,428 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 15
