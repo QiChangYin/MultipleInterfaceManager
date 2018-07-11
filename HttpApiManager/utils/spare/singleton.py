@@ -34,6 +34,7 @@ class shared_attribute(object):
         return ob
 
 class  Borg2(object):
+
     _state ={}
 
     def __new__(cls, *args, **kwargs):
