@@ -5,3 +5,4 @@
 python manage.py collectstatic --noinput &&
 python manage.py migrate &&
 gunicorn blog.wsgi:application -c gunicorn.conf
+

@@ -41,6 +41,7 @@ class UserInfo(BaseTable):
 
 
 class ProjectInfo(BaseTable):
+    # meta是指定数据库的名字
     class Meta:
         verbose_name = '项目信息'
         db_table = 'ProjectInfo'
@@ -67,6 +68,9 @@ class ModuleInfo(BaseTable):
     other_desc = models.CharField('其他信息', max_length=100, null=True)
     objects = ModuleInfoManager()
 
+  # def __str__(self):
+  #   """返回模型的字符串表示"""
+  #   return self.text
 
 class TestCaseInfo(BaseTable):
     class Meta:
@@ -76,6 +80,12 @@ class TestCaseInfo(BaseTable):
     type = models.IntegerField('test/config', default=1)
     name = models.CharField('用例/配置名称', max_length=50)
     belong_project = models.CharField('所属项目', max_length=50)
+    # # 表示外键关联到作者表,当作者表删除了该条数据,图书表中不删除,仅仅是把外键置空
+    # CASCADE: 这就是默认的选项，级联删除，你无需显性指定它。
+    # PROTECT: 保护模式，如果采用该选项，删除的时候，会抛出ProtectedError错误。
+    # SET_NULL: 置空模式，删除的时候，外键字段被设置为空，前提就是blank = True, null = True, 定义该字段的时候，允许为空。
+    # SET_DEFAULT: 置默认值，删除的时候，外键字段设置为默认值，所以定义外键的时候注意加上一个默认值。
+    # SET(): 自定义一个值，该值当然只能是对应的实体了
     belong_module = models.ForeignKey(ModuleInfo, on_delete=models.CASCADE)
     include = models.CharField('包含config/test', max_length=500, null=True)
     author = models.CharField('编写人员', max_length=20)
