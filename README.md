@@ -30,9 +30,9 @@ Key Features
         DATABASES = {
             'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'HttpRunner',  # 新建数据库名
+            'NAME': 'test',  # 新建数据库名
             'USER': 'root',  # 数据库登录名
-            'PASSWORD': 'lcc123456',  # 数据库登录密码
+            'PASSWORD': '123456',  # 数据库登录密码
             'HOST': '127.0.0.1',  # 数据库所在服务器ip地址
             'PORT': '3306',  # 监听端口 默认3306即可
         }
@@ -96,56 +96,6 @@ Key Features
 12. 浏览器输入http://127.0.0.1:8000/admin/  输入步骤6设置的用户名、密码，登录后台运维管理系统，可后台管理数据
 
 ### 生产环境uwsgi+nginx部署参考：https://www.jianshu.com/p/d6f9138fab7b
-
-新手入门手册
------------
-1、首先需要注册一个新用户,注册成功后会自动跳转到登录页面，正常登录即可访问页面
-![注册页面](https://github.com/HttpRunner/MultipleInterfaceManager/blob/master/images/register_01.png)<br>
-<br>
-2、登陆后默认跳转到首页，左侧为菜单栏，上排有快捷操作按钮，当前只简单的做了项目，模块，用例，配置的统计
-![首页](https://github.com/HttpRunner/MultipleInterfaceManager/blob/master/images/index_01.png)<br>
-<br>
-3、首先应该先添加一个项目，用例都是以项目为维度进行管理, 注意简要描述和其他信息可以为空, 添加成功后会自动重定向到项目列表
-![新增项目](https://github.com/HttpRunner/MultipleInterfaceManager/blob/master/images/add_project_01.png)<br>
-<br>
-4、支持对项目进行二次编辑,也可以进行筛选等,项目列表页面可以选择单个项目运行，也可以批量运行，注意：删除操作会强制删除该项目下所有数据，请谨慎操作
-![项目列表](https://github.com/HttpRunner/MultipleInterfaceManager/blob/master/images/project_list_01.jpg)<br>
-<br>
-5、当前项目可以新增模块了，之后用例或者配置都会归属模块下，必须指定模块所属的项目,模块列表与项目列表类似，故不赘述
-![新增模块](https://github.com/HttpRunner/MultipleInterfaceManager/blob/master/images/add_module_01.jpg)<br>
-<br>
-6、新增用例，遵循HtttpRuunner脚本规范，可以跨项目，跨模块引用用例，支持拖拽排序，动态添加和删减，极大地方便了场景组织, HttpRunner用例编写很灵活，建议规范下编写方式
-![新增用例01](https://github.com/HttpRunner/MultipleInterfaceManager/blob/master/images/add_case_01.jpg)<br>
-<br>
-![新增用例02](https://github.com/HttpRunner/MultipleInterfaceManager/blob/master/images/add_case_02.jpg)<br>
-<br>
-![新增用例03](https://github.com/HttpRunner/MultipleInterfaceManager/blob/master/images/add_case_03.jpg)<br>
-<br>
-![新增用例04](https://github.com/HttpRunner/MultipleInterfaceManager/blob/master/images/add_case_04.jpg)<br>
-<br>
-7、新增配置，可定义全局变量，全局hook，公共请求参数和公共headers,一般可用于测试环境，验证环境切换配置，具体用法参考HttpRunner手册
-![新增配置](https://github.com/HttpRunner/MultipleInterfaceManager/blob/master/images/add_config_01.jpg)<br>
-<br>
-8、支持添加项目级别定时任务，模块集合的定时任务，遵循crontab表达式, 模块列表为空默认为整个项目，定时任务支持选择环境和配置
-![添加任务](https://github.com/HttpRunner/MultipleInterfaceManager/blob/master/images/add_tasks_01.jpg)<br>
-9、定时任务列表可以对任务进行开启或者关闭、删除，不支持二次更改
-![任务列表](https://github.com/HttpRunner/MultipleInterfaceManager/blob/master/images/tasks_list_01.jpg)<br>
-<br>
-10、用例列表运行用例可以选择单个，批量运行，鼠标悬浮到用例名称后会自动展开依赖的用例，方便预览，鼠标悬浮到对应左边序列栏会自动收缩,只能同步运行
-![用例列表](https://github.com/HttpRunner/MultipleInterfaceManager/blob/master/images/test_list_01.jpg)<br>
-<br>
-11、项目和模块列表可以选择单个，或者批量运行，可以选择运行环境，配置等，支持同步、异步选择，异步支持自定义报告名称，默认时间戳命名
-![模块列表](https://github.com/HttpRunner/MultipleInterfaceManager/blob/master/images/module_list_01.jpg)<br>
-<br>
-12、异步运行的用例还有定时任务生成的报告均会存储在数据库，可以在线点击查看，当前不提供下载功能
-![报告持久化](https://github.com/HttpRunner/MultipleInterfaceManager/blob/master/images/report_list_01.jpg)<br>
-<br>
-13、高大上的报告(基于extentreports实现), 可以一键翻转主题哦
-![最终报告01](https://github.com/HttpRunner/MultipleInterfaceManager/blob/master/images/reports_01.jpg)<br>
-<br>
-![最终报告02](https://github.com/HttpRunner/MultipleInterfaceManager/blob/master/images/reports_02.jpg)<br>
-
-
 
 
 

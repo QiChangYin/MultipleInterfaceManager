@@ -5360,3 +5360,11 @@ IndexError: tuple index out of range
 2018-07-09 23:02:01,262 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
 2018-07-09 23:03:09,533 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 15
 2018-07-09 23:03:40,428 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 15
+2018-07-12 23:09:09,359 [MultipleInterfaceManager:72] [views:login] [INFO]- laoda 登录成功
+2018-07-12 23:09:36,252 [MultipleInterfaceManager:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-12 23:09:36,265 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 15
+2018-07-14 10:32:43,471 [MultipleInterfaceManager:23] [operation:add_register_data] [INFO]- 用户名是:yinqichang,加密后的密码是：b'8f55cdb828ce3a984bdeedc6a5553699'
+2018-07-14 10:32:43,494 [MultipleInterfaceManager:34] [operation:add_register_data] [INFO]- 新增用户：HttpApiManager.UserInfo.objects
+2018-07-14 10:33:01,738 [MultipleInterfaceManager:72] [views:login] [INFO]- yinqichang 登录成功
+2018-07-14 10:33:41,419 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-14 10:34:17,029 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
