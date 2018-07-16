@@ -3,7 +3,7 @@
         request:
             base_url: http://127.0.0.1:8000
 -   test:
-        name: testcase4
+        name: cao
         parameters:
         -   single:
             - '1'

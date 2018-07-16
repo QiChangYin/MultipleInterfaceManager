@@ -1,15 +1,9 @@
 -   config:
-        def: create_and_check($uid, $token)
-        name: create user and check result.
-        output:
-        - token
+        name: base_url config
         request:
-            base_url: http://127.0.0.1:5000
-            headers:
-                Content-Type: application/json
-                device_sn: $device_sn
+            base_url: http://127.0.0.1:8000
 -   test:
-        name: testcase4
+        name: cao
         parameters:
         -   single:
             - '1'
@@ -37,8 +31,3 @@
         variables:
         -   username: yinqichang
         -   password: '123456'
--   test:
-        name: wqweqweq
-        request:
-            method: POST
-            url: wqweq

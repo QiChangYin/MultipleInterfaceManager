@@ -5368,3 +5368,65 @@ IndexError: tuple index out of range
 2018-07-14 10:33:01,738 [MultipleInterfaceManager:72] [views:login] [INFO]- yinqichang 登录成功
 2018-07-14 10:33:41,419 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
 2018-07-14 10:34:17,029 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-15 21:32:38,020 [MultipleInterfaceManager:72] [views:login] [INFO]- yinqichang 登录成功
+2018-07-15 21:33:58,111 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-15 21:35:46,311 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-15 21:37:16,916 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-15 21:40:47,045 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-15 21:42:47,833 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-15 21:42:56,332 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 1
+2018-07-15 21:42:58,371 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 1
+2018-07-15 21:43:03,958 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-15 21:44:11,926 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 2
+2018-07-15 21:50:52,481 [MultipleInterfaceManager:72] [views:login] [INFO]- yinqichang 登录成功
+2018-07-15 21:53:16,913 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-15 21:54:05,143 [MultipleInterfaceManager:72] [views:login] [INFO]- yinqichang 登录成功
+2018-07-15 21:54:08,930 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-15 21:55:11,043 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-15 21:55:16,696 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-15 21:56:20,067 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-15 21:56:21,770 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-15 22:00:53,853 [MultipleInterfaceManager:72] [views:login] [INFO]- yinqichang 登录成功
+2018-07-15 22:01:13,188 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-15 22:09:30,287 [MultipleInterfaceManager:347] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-15 22:09:30,303 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 15
+2018-07-15 22:14:21,088 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 9
+2018-07-15 22:14:32,998 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 10
+2018-07-15 22:14:37,902 [MultipleInterfaceManager:347] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-15 22:14:37,909 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 15
+2018-07-15 22:14:42,862 [MultipleInterfaceManager:347] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-15 22:14:42,870 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 15
+2018-07-15 22:14:46,831 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 10
+2018-07-15 22:14:54,698 [MultipleInterfaceManager:347] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-15 22:14:54,708 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 15
+2018-07-15 22:15:02,103 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 10
+2018-07-15 22:15:08,965 [MultipleInterfaceManager:347] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-15 22:15:08,973 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 15
+2018-07-15 22:15:20,294 [MultipleInterfaceManager:347] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-15 22:15:20,304 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 15
+2018-07-15 22:15:22,861 [MultipleInterfaceManager:347] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-15 22:15:22,870 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 15
+2018-07-15 22:15:32,946 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 10
+2018-07-15 22:15:39,728 [MultipleInterfaceManager:347] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-15 22:15:39,735 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 15
+2018-07-15 22:15:42,188 [MultipleInterfaceManager:347] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-15 22:15:42,195 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 15
+2018-07-15 22:15:45,773 [MultipleInterfaceManager:347] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-15 22:15:45,780 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 15
+2018-07-15 22:19:05,300 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 10
+2018-07-15 22:19:34,395 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 11
+2018-07-15 22:19:44,827 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-15 22:20:05,395 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 4
+2018-07-15 22:20:15,708 [MultipleInterfaceManager:109] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': '打撒奥所多', 'test_user': '三大', 'simple_desc': '三大', 'other_desc': '啥答案是多', 'belong_project': <ProjectInfo: ProjectInfo object (9)>}
+2018-07-15 22:20:15,733 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 5
+2018-07-15 22:20:24,047 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-15 22:20:38,591 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 5
+2018-07-15 22:20:50,096 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-15 22:21:15,249 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
+2018-07-15 22:21:21,970 [MultipleInterfaceManager:347] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-07-15 22:21:21,975 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 15
+2018-07-15 22:21:27,291 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 5
+2018-07-15 22:21:35,981 [MultipleInterfaceManager:109] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': '爱迪生撒多', 'test_user': '阿诗丹顿撒', 'simple_desc': '桑达德撒', 'other_desc': '打撒所大', 'belong_project': <ProjectInfo: ProjectInfo object (9)>}
+2018-07-15 22:21:36,001 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 6
+2018-07-15 22:21:37,524 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 6
+2018-07-15 22:21:42,064 [MultipleInterfaceManager:158] [pagination:get_pager_info] [INFO]- 12
